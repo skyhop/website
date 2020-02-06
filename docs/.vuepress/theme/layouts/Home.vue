@@ -74,84 +74,6 @@
 
         <SellingPoints />
 
-        <!-- 
-        <div class="container mx-auto px-4 pb-32 pt-48">
-          <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-5/12 ml-auto px-12 md:px-4">
-              <div class="md:pr-12">
-                <div
-                  class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"
-                >
-                  <i class="fas fa-file-alt text-xl"></i>
-                </div>
-                <h3 class="text-3xl font-semibold">Transparency By Default</h3>
-                <p
-                  class="mt-4 text-lg leading-relaxed text-gray-600"
-                >We offer 3<sup>rd</sup> parties full access to the same data sources we use ourselves. This way you have the freedom to develop custom functionality tailored to your use-cases, and you can be sure you will not be locked in by a single vendor.</p>
-                <ul class="list-none mt-6">
-                  <li class="py-2">
-                    <div class="flex items-center">
-                      <div>
-                        <span
-                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-100 mr-3"
-                        >
-                          <i class="fas fa-fingerprint"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 class="text-gray-600">Access our high quality GraphQL API</h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="py-2">
-                    <div class="flex items-center">
-                      <div>
-                        <span
-                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-100 mr-3"
-                        >
-                          <i class="fab fa-html5"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 class="text-gray-600">Extensive documentation for users as well as developers</h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="py-2">
-                    <div class="flex items-center">
-                      <div>
-                        <span
-                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-100 mr-3"
-                        >
-                          <i class="far fa-paper-plane"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 class="text-gray-600">Qualitative data sources</h4>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
-              <img
-                alt="..."
-                class="max-w-full rounded-lg shadow-xl"
-                src="https://demos.creative-tim.com/tailwindcss-starter-project/static/media/documentation.e889cedc.png"
-                style="transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);"
-              />
-            </div>
-          </div>
-        </div>
-        <div class="justify-center text-center flex flex-wrap mt-24">
-          <div class="w-full md:w-6/12 px-12 md:px-4">
-            <h2 class="font-semibold text-4xl">Beautiful Example Pages</h2>
-            <p
-              class="text-lg leading-relaxed mt-4 mb-4 text-gray-600"
-            >Tailwind Starter Kit is a completly new product built using our past experience in web templates. Take the examples we made for you and start playing with them.</p>
-          </div>
-        </div>-->
       </section>
       <InCaseOfEmergency />
 
@@ -190,12 +112,12 @@ export default {
       }
     }
   },
-  created() {
+  mounted() {
     window.addEventListener("scroll", this.handleScroll);
-  },
-  destroyed() {
-    window.removeEventListener("scroll", this.handleScroll);
   }
+  // destroyed() {
+  //   window.removeEventListener("scroll", this.handleScroll);
+  // }
 };
 </script>
 
