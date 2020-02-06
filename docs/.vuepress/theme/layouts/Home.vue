@@ -37,43 +37,44 @@
             <polygon class="text-gray-200 fill-current" points="2560 0 2560 100 0 100" />
           </svg>
         </div>-->
-        <div class="flex my-32">
-          <div class="w-full md:w-1/2 lg:w-1/4 float-left py-4 md:pr-4 lg:pr-4">
-            <h2 class="text-xl font-light">make it easier</h2>
-            <h3 class="font-medium text-2xl text-blue-600 mb-4">The digital logbook</h3>
-            <p>No need to manually keep your logbook up-to-date again with our digital logbook which keeps itself up to date!</p>
-          </div>
-          <div class="w-full md:w-1/2 lg:w-1/4 float-left py-4 md:pl-4 lg:px-4">
-            <h2 class="text-xl font-light">get better</h2>
-            <h3 class="font-medium text-2xl text-blue-600 mb-4">Flight analysis</h3>
-            <p>Go above and beyond by comparing flight performance with your peers and learning from each other.</p>
-          </div>
-          <div class="w-full md:w-1/2 lg:w-1/4 float-left py-4 md:pr-4 lg:px-4">
-            <h2 class="text-xl font-light">stay safer</h2>
-            <h3 class="font-medium text-2xl text-blue-600 mb-4">
-              Flight following
-              <span
-                class="bg-yellow-200 text-yellow-600 rounded text-sm px-2 py-1"
-              >beta</span>
-            </h3>
-            <p>By identifying risky behaviour before it becomes a problem you may save yourself one day.</p>
-          </div>
-          <div class="w-full md:w-1/2 lg:w-1/4 float-left py-4 md:pl-4 lg:pl-4">
-            <h2 class="text-xl font-light">for your convenience</h2>
-            <h3 class="font-medium text-2xl text-blue-600 mb-4">
-              Weak-link finder
-              <span
-                class="bg-green-200 text-green-600 rounded text-sm px-2 py-1"
-              >new</span>
-            </h3>
-            <p>Make a well educated guess about the location of a broken weak-link and save yourselves hours of searching.</p>
+        <div class="">
+          <div class="my-32 flex items-stretch flex-wrap">
+            <div class="flex flex-col w-full md:w-1/2 lg:w-1/4 float-left py-4 md:pr-4 lg:pr-4">
+              <h2 class="text-xl font-light">make it easier</h2>
+              <h3 class="font-medium text-2xl text-blue-600 mb-4">The digital logbook</h3>
+              <p>No need to manually keep your logbook up-to-date again with our digital logbook which keeps itself up to date!</p>
+            </div>
+            <div class="flex flex-col w-full md:w-1/2 lg:w-1/4 float-left py-4 md:pl-4 lg:px-4">
+              <h2 class="text-xl font-light">get better</h2>
+              <h3 class="font-medium text-2xl text-blue-600 mb-4">Flight analysis</h3>
+              <p>Go above and beyond by comparing flight performance with your peers and learning from each other.</p>
+            </div>
+            <div class="flex flex-col w-full md:w-1/2 lg:w-1/4 float-left py-4 md:pr-4 lg:px-4">
+              <h2 class="text-xl font-light">stay safer</h2>
+              <h3 class="font-medium text-2xl text-blue-600 mb-4">
+                Flight following
+                <span
+                  class="bg-yellow-200 text-yellow-600 rounded text-sm px-2 py-1"
+                >beta</span>
+              </h3>
+              <p>By identifying risky behaviour before it becomes a problem you may save yourself one day.</p>
+            </div>
+            <div class="flex flex-col w-full md:w-1/2 lg:w-1/4 float-left py-4 md:pl-4 lg:pl-4">
+              <h2 class="text-xl font-light">for your convenience</h2>
+              <h3 class="font-medium text-2xl text-blue-600 mb-4">
+                Weak-link finder
+                <span
+                  class="bg-green-200 text-green-600 rounded text-sm px-2 py-1"
+                >new</span>
+              </h3>
+              <p>Make a well educated guess about the location of a broken weak-link and save yourselves hours of searching.</p>
+            </div>
           </div>
         </div>
 
         <OurJourney />
 
         <SellingPoints />
-
       </section>
       <InCaseOfEmergency />
 
