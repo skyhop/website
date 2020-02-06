@@ -21,10 +21,10 @@
             <h5 class="uppercase mb-6 font-bold">Legal</h5>
             <ul class="mb-4">
               <li class="mt-2">
-                <a href="/terms-of-service" class="hover:underline text-gray-600 hover:text-orange-500">Terms of Service</a>
+                <a href="$withBase('/terms-of-service')" class="hover:underline text-gray-600 hover:text-orange-500">Terms of Service</a>
               </li>
               <li class="mt-2">
-                <a href="/privacy-policy" class="hover:underline text-gray-600 hover:text-orange-500">Privacy Policy</a>
+                <a href="$withBase('/privacy-policy')" class="hover:underline text-gray-600 hover:text-orange-500">Privacy Policy</a>
               </li>
             </ul>
           </div>
