@@ -7,7 +7,7 @@
   >
     <nav class="flex items-center justify-between">
       <div class>
-        <a href="$withBase('/')">
+        <a :href="$withBase('/')">
           <img class="h-10" src="https://login.skyhop.org/images/skyhop.svg" />
         </a>
       </div>
@@ -26,10 +26,10 @@
             <a href="https://registry.skyhop.org/" class="sm:px-4 py-2 block">Flights</a>
           </li>
           <li>
-            <a href="$withBase('/about-us')" class="sm:px-4 py-2 sm:hidden lg:block">About Us</a>
+            <a :href="$withBase('/about-us')" class="sm:px-4 py-2 sm:hidden lg:block">About Us</a>
           </li>
           <li>
-            <a href="$withBase('/documentation/')" class="sm:px-4 py-2 sm:hidden md:block">Documentation</a>
+            <a :href="$withBase('/documentation/')" class="sm:px-4 py-2 sm:hidden md:block">Documentation</a>
           </li>
           <li>
             <a
