@@ -39,35 +39,68 @@
         </div>-->
         <div class="">
           <div class="my-32 flex items-stretch flex-wrap">
-            <div class="flex flex-col w-full md:w-1/2 lg:w-1/4 float-left py-4 md:pr-4 lg:pr-4">
-              <h2 class="text-xl font-light">make it easier</h2>
-              <h3 class="font-medium text-2xl text-blue-600 mb-4"><a href="#" class="hover:underline">The digital logbook</a></h3>
-              <p>No need to manually keep your logbook up-to-date again with our digital logbook which keeps itself up to date! <a href="#" class="underline text-blue-500">More information...</a></p>
+            <div
+              class="flex flex-col justify-between self-stretch w-full md:w-1/2 lg:w-1/4 float-left py-4 md:pr-4 lg:pr-4"
+            >
+              <div>
+                <h2 class="text-xl font-light">make it easier</h2>
+                <h3 class="font-medium text-2xl text-blue-600 mb-4">
+                  <a :href="$withBase('/documentation/01.features/the-digital-logbook.html')" class="hover:underline">The digital logbook</a>
+                </h3>
+                <p>No need to manually keep your logbook up-to-date again with our digital logbook which keeps itself up to date!</p>
+              </div>
+              <a
+                :href="$withBase('/documentation/01.features/the-digital-logbook.html')"
+                class="text-white self-start bg-blue-600 font-bold rounded mt-6 px-3 py-2 w-auto hover:bg-blue-500 shadow-md"
+              >Read more</a>
             </div>
-            <div class="flex flex-col w-full md:w-1/2 lg:w-1/4 float-left py-4 md:pl-4 lg:px-4">
-              <h2 class="text-xl font-light">get better</h2>
-              <h3 class="font-medium text-2xl text-blue-600 mb-4"><a href="#" class="hover:underline">Flight analysis</a></h3>
-              <p>Go above and beyond by comparing flight performance with your peers and learning from each other. <a href="#" class="underline text-blue-500">More information...</a></p>
+
+            <div
+              class="flex flex-col justify-between w-full self-stretch md:w-1/2 lg:w-1/4 float-left py-4 md:pl-4 lg:px-4"
+            >
+              <div>
+                <h2 class="text-xl font-light">get better</h2>
+                <h3 class="font-medium text-2xl text-blue-600 mb-4">
+                  <a :href="$withBase('/documentation/01.features/flight-analysis.html')" class="hover:underline">Flight analysis</a>
+                </h3>
+                <p>Go above and beyond by comparing flight performance with your peers and learning from each other.</p>
+              </div>
+              <a
+                :href="$withBase('/documentation/01.features/flight-analysis.html')"
+                class="self-start text-white bg-blue-600 font-bold rounded mt-6 px-3 py-2 w-auto hover:bg-blue-500 shadow-md"
+              >Read more</a>
             </div>
-            <div class="flex flex-col w-full md:w-1/2 lg:w-1/4 float-left py-4 md:pr-4 lg:px-4">
-              <h2 class="text-xl font-light">stay safer</h2>
-              <h3 class="font-medium text-2xl text-blue-600 mb-4">
-                <a href="#" class="hover:underline">Flight following</a>
-                <span
-                  class="bg-yellow-200 text-yellow-600 rounded text-sm px-2 py-1"
-                >beta</span>
-              </h3>
-              <p>By identifying risky behaviour before it becomes a problem you may save yourself one day. <a href="#" class="underline text-blue-500">More information...</a></p>
+            <div
+              class="flex flex-col justify-between w-full self-stretch md:w-1/2 lg:w-1/4 float-left py-4 md:pr-4 lg:px-4"
+            >
+              <div>
+                <h2 class="text-xl font-light">stay safer</h2>
+                <h3 class="font-medium text-2xl text-blue-600 mb-4">
+                  <a href="#" class="hover:underline">Flight following</a>
+                  <span class="bg-yellow-200 text-yellow-600 rounded text-sm px-2 py-1">beta</span>
+                </h3>
+                <p>By identifying risky behaviour before it becomes a problem you may save yourself one day.</p>
+              </div>
+              <a
+                href="#"
+                class="self-start text-white bg-blue-600 font-bold rounded mt-6 px-3 py-2 w-auto hover:bg-blue-500 shadow-md"
+              >Read more</a>
             </div>
-            <div class="flex flex-col w-full md:w-1/2 lg:w-1/4 float-left py-4 md:pl-4 lg:pl-4">
-              <h2 class="text-xl font-light">for your convenience</h2>
-              <h3 class="font-medium text-2xl text-blue-600 mb-4">
-                <a href="#" class="hover:underline">Weak-link finder</a>
-                <span
-                  class="bg-green-200 text-green-600 rounded text-sm px-2 py-1"
-                >new</span>
-              </h3>
-              <p>Make a well educated guess about the location of a broken weak-link and save yourselves hours of searching. <a href="#" class="underline text-blue-500">More information...</a></p>
+            <div
+              class="flex flex-col justify-between w-full self-stretch md:w-1/2 lg:w-1/4 float-left py-4 md:pl-4 lg:pl-4"
+            >
+              <div>
+                <h2 class="text-xl font-light">for your convenience</h2>
+                <h3 class="font-medium text-2xl text-blue-600 mb-4">
+                  <a :href="$withBase('/documentation/01.features/weak-link-recovery.html')" class="hover:underline">Weak-link finder</a>
+                  <span class="bg-green-200 text-green-600 rounded text-sm px-2 py-1">new</span>
+                </h3>
+                <p>Make a well educated guess about the location of a broken weak-link and save yourselves hours of searching.</p>
+              </div>
+              <a
+                :href="$withBase('/documentation/01.features/weak-link-recovery.html')"
+                class="self-start text-white bg-blue-600 font-bold rounded mt-6 px-3 py-2 w-auto hover:bg-blue-500 shadow-md"
+              >Read more</a>
             </div>
           </div>
         </div>

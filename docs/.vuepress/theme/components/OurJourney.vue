@@ -85,7 +85,35 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    async subscribe() {
+      try {
+        let response = await fetch("http://listmonk.whaally.com/subscribe", {
+          method: "POST",
+          mode: "cors",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            email: this.email,
+            name: this.email,
+            status: "enabled"
+          })
+        });
+
+        let text = await response.text();
+        console.log(text);
+        let json = JSON.parse(text.split("\n")[0]);
+
+        alert(json.message);
+      } catch (err) {
+        console.error(err);
+      }
+    }
+  }
+};
 </script>
 
 <style>

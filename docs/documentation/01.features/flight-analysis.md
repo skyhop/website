@@ -28,4 +28,4 @@ Whenever sufficient en-route data is available we also might be able to calculat
 - Average glide-ratio
 
 ## Using this information in a 3rd party application
-Subscribers can use this information within a 3rd party application. For more information on how to do this, check out the GraphQL docs.
+Subscribers can use this information within a 3rd party application. For more information on how to do this, check out [the GraphQL docs](/documentation/02.developers/graphql-api.html).

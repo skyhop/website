@@ -8,7 +8,8 @@ npm run docs:build
 cd docs/.vuepress/dist
 
 # if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
+# echo "skyhop.org" > CNAME
+Set-Content -Path CNAME -Value "skyhop.org"
 
 git init
 git add -A
@@ -19,5 +20,3 @@ git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f https://github.com/skyhop/website.git master:gh-pages
-
-cd -
