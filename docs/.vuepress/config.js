@@ -14,7 +14,7 @@ module.exports = {
         'ga': 'UA-45114631-9' // UA-00000000-0
       }
     ]
-  ]
+  ],
   postcss: {
     plugins: [
       require("autoprefixer"),

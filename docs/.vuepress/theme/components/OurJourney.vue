@@ -34,49 +34,28 @@
           </svg>
         </div>
       </div>
-      <div class="md:px-8 lg:px-16 md:py-20 pb-16 pt-8 px-12 md:px-0 w-full sm:pr-32 md:w-6/12 lg:w-5/12 mr-auto bg-gray-200">
+      <div
+        class="md:px-8 lg:px-16 md:py-20 pb-16 pt-8 px-12 md:px-0 w-full sm:pr-32 md:w-6/12 lg:w-5/12 mr-auto bg-gray-200"
+      >
         <p
           class="text-blue-600 leading-loose"
         >Skyhop is a hobby project which turned full time. From our own experiences flying gliders we've set out on a journey to make the time on the ground as easy and fun as possible, not worrying about maintaining proper records. We're trying to define what the logbook of the future looks like, and raise the bar when it comes to quality. Follow us on our journey building it, and stay up to date of the newest features we're building.</p>
 
         <div class="mt-10">
-          <!-- <p class="text-white"><strong></strong></p> -->
           <form
-            id="form"
-            action="http://listmonk.whaally.com/api/subscribers"
-            method="POST"
-            class="relative mt-5"
+            method="post"
+            action="https://listmonk.whaally.com/subscription/form"
+            class="listmonk-form"
           >
-            <div class="sm:flex">
-              <input
-                type="email"
-                required="required"
-                placeholder="Enter your email"
-                class="block sm:max-w-xs w-full px-4 py-2 text-lg leading-snug appearance-none bg-white focus:outline-none focus:shadow-outline"
-              />
-              <button
-                class="mt-4 relative h-12 sm:mt-0 sm:h-auto sm:ml-4 block w-full sm:w-auto px-4 py-2 font-semibold leading-snug bg-blue-600 text-white uppercase tracking-wide shadow-md focus:outline-none focus:shadow-outline hover:bg-blue-500"
-              >
-                <span class>Count me in!</span>
-                <span
-                  class="v-cloak:hidden absolute inset-0 flex items-center justify-center pointer-events-none opacity-0"
-                >
-                  <svg viewBox="0 0 24 24" class="h-8 w-8 spin">
-                    <path
-                      fill="currentColor"
-                      d="M12 21a9 9 0 100-18 9 9 0 000 18zm0-2a7 7 0 110-14 7 7 0 010 14z"
-                      class="text-gray-600"
-                    />
-                    <path
-                      fill="currentColor"
-                      d="M12 3a9 9 0 010 18v-2a7 7 0 000-14V3z"
-                      class="text-gray-400"
-                    />
-                  </svg>
-                </span>
-              </button>
+            <input type="hidden" name="l" value="60812f57-1f90-41ce-866a-68724eaa6c9e">
+            <div class="flex flex-row">
+              <p>
+                <input type="text" name="email" placeholder="E-mail" class="block sm:max-w-xs w-full px-4 py-2 text-lg leading-snug appearance-none bg-white focus:outline-none focus:shadow-outline" />
+              </p>
+              <p>
+                <input type="submit" value="Subscribe" class="mt-4 relative h-12 sm:mt-0 sm:h-auto sm:ml-4 block w-full sm:w-auto px-4 py-2 font-semibold leading-snug bg-blue-600 text-white uppercase tracking-wide shadow-md focus:outline-none focus:shadow-outline hover:bg-blue-500" />
+              </p>
             </div>
-            <!---->
           </form>
         </div>
       </div>
@@ -86,33 +65,7 @@
 
 <script>
 export default {
-  methods: {
-    async subscribe() {
-      try {
-        let response = await fetch("http://listmonk.whaally.com/subscribe", {
-          method: "POST",
-          mode: "cors",
-          headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({
-            email: this.email,
-            name: this.email,
-            status: "enabled"
-          })
-        });
-
-        let text = await response.text();
-        console.log(text);
-        let json = JSON.parse(text.split("\n")[0]);
-
-        alert(json.message);
-      } catch (err) {
-        console.error(err);
-      }
-    }
-  }
+  
 };
 </script>
 

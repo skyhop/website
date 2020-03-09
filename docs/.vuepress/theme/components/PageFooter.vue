@@ -35,10 +35,7 @@
                 <a href="https://twitter.com/_skyhop" class="hover:underline text-gray-600 hover:text-orange-500">Twitter</a>
               </li>
               <li class="mt-2">
-                <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">Instagram</a>
-              </li>
-              <li class="mt-2">
-                <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">LinkedIn</a>
+                <a href="https://www.facebook.com/Skyhop-103274767958275" class="hover:underline text-gray-600 hover:text-orange-500">Facebook</a>
               </li>
             </ul>
           </div>

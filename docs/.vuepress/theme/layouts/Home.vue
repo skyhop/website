@@ -109,7 +109,8 @@
 
         <SellingPoints />
       </section>
-      <InCaseOfEmergency />
+      
+      <!-- <InCaseOfEmergency /> -->
 
       <PageFooter />
     </div>
