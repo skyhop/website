@@ -1,0 +1,208 @@
+I", <p class="font-thin text-lg">The API is being secured through an OAuth server. In order to access data it's required to authorize yourself or your application through this server. This server will hand out (JWT) access tokens indicating you are in fact authorized to access a certain resource.</p>
+
+<p>There are several steps with which we determine whether the 3rd party accessing the API is authorized to do so. One of the first steps is in checking whether the scope is correctly. The scope determines to which section(s) of the API the token grants access to.</p>
+
+<p>When working with the GraphQL API, information about the scopes required to access a certain endpoint is available in the description fields on the node or endpoint.</p>
+
+<p>Note that for certain scopes it is required to collect user consent. This will mean that either client credentials have to be used, or that the user will be redirected to a consent screen after login.</p>
+
+<p>We have divides scopes into two different flavours: scopes defining reach, and scopes defining access. These two can be combined to get the amount of access you require for your application. Requesting a scope representing a certain reach will automatically grant you access to read the related data. If you need more access to the related resource you can request an additional access scope. Reach is mainly defined in the following three terms:</p>
+
+<ul>
+  <li>Public: get access to public data</li>
+  <li>Personal: get access to private data</li>
+  <li>Group: get access to data from a group you are part of. Data may be private or public.</li>
+</ul>
+
+<p>For example: if you want to mutate your own logbook via the API you will need to request the personal:flights scope combined with the flights:mutate scope.</p>
+
+<p>Please note that even though the names of API scopes are familiar to the names of access rights, their functionality should not be confused. In that regard scopes define what features an application may have access to, and access rights determine what data an user has access to. If scopes are provided without sufficient access rights, no data will be returned upon running queries targeting said resource.</p>
+
+<h2 id="available-scopes">Available scopes</h2>
+<p>The following scopes can be requested, as grouped by the affected resource (data model).</p>
+
+<h3 id="aircraft-information">Aircraft information</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Scope name</th>
+      <th>Scope description</th>
+      <th>User consent required</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">public:aircraft</code></td>
+      <td> </td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">personal:aircraft</code></td>
+      <td> </td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">group:aircraft</code></td>
+      <td> </td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">aircraft:mutate</code></td>
+      <td> </td>
+      <td>❌</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="airfield-information">Airfield information</h3>
+<p>Because airfield information is automatically being imported there is no general functionality to change this information. An exception is available for accounts representing groups or airfields who can mutate information on their own airfield.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Scope name</th>
+      <th>Scope description</th>
+      <th>User consent required</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">public:airfields</code></td>
+      <td>Access airfield information through the API</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">airfields:mutate</code></td>
+      <td>Mutate airfield information.</td>
+      <td>❌</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="flight-information">Flight information</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Scope name</th>
+      <th>Scope description</th>
+      <th>User consent required</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">public:flights</code></td>
+      <td>Access to public flight information. This information is usually immutable, even with the mutate scope requested.</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">personal:flights</code></td>
+      <td>Access personal flight information such as the logbook.</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">group:flights</code></td>
+      <td>Access flight information related to a group. May include both public and private information.</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">flights:mutate</code></td>
+      <td>Allows for changing flight data. This includes both registering flight information, and updating flight information.</td>
+      <td>✔</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="group-information">Group information</h3>
+<p>A group may represent entities like flight schools or aeroclubs. Groups can be used to manage assets, users and flight information on a higher level than otherwise possible using user profiles.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Scope name</th>
+      <th>Scope description</th>
+      <th>User consent required</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">public:groups</code></td>
+      <td>Get information about public groups.</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">private:groups</code></td>
+      <td>Get information from private groups of which you are a member.</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">groups:mutate</code></td>
+      <td>Change information related to your groups.</td>
+      <td>✔</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="profile-information">Profile information</h3>
+<p>Profile information contains information about other people who are using SkyHop. Access to profile information is required when you want to know who has been the pilot of a certain flight.</p>
+
+<p>Besides that there is a significant difference between requesting a scope to access other people’s profiles, and accessing your own profile. For all profiles you can retrieve some generic information like names and so on. In addition for your own profile you can access and modify information about your preferences and other closely related information such as connected (Telegram) accounts.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Scope name</th>
+      <th>Scope description</th>
+      <th>User consent required</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">public:profiles</code></td>
+      <td>Access information on public profiles.</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">personal:profile</code></td>
+      <td>Grants access to an user’s personal profile. This includes preferences for use within apps.</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">group:profiles</code></td>
+      <td>Access profiles of people enrolled in the same groups as you.</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">profile:mutate</code></td>
+      <td>Grants access to change details on the user’s personal profile.</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">profiles:mutate</code></td>
+      <td>Change information from other people’s profiles. Only available to group managed profiles.</td>
+      <td>✔</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="weather-information">Weather information</h3>
+<p>We also offer access to some basic weather information. Weather information is publicly accessible and cannot be modified.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Scope name</th>
+      <th>Scope description</th>
+      <th>User consent required</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">all:weather</code></td>
+      <td>Access weather information such as METAR reports.</td>
+      <td>❌</td>
+    </tr>
+  </tbody>
+</table>
+:ET
