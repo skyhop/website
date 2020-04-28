@@ -106,3 +106,5 @@ typings/
 .vscode-test
 
 .jekyll-cache/
+
+_site/
