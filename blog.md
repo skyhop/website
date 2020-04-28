@@ -16,7 +16,7 @@ layout: blog-list
             <img src="{{ site.authors[post.author].picture }}"
               class="rounded-full shadow-md w-12 h-12 -ml-6 border-2 mt-1 border-white" />
             <div class="block ml-10">
-              <h2 class="text-2xl font-medium text-blue-900 title-font">{{ post.title }}</h2>
+              <a href="{{ post.url }}"><h2 class="text-2xl font-light text-gray-900 title-font">{{ post.title }}</h2></a>
               <span class="text-gray-400 text-sm">
                 <a href="{{site.authors[post.author].twitter}}" class="font-medium">{{site.authors[post.author].name}}</a> on the
                 {% assign day = post.date | date: "%-d"  %}
@@ -32,7 +32,7 @@ layout: blog-list
           </div>
           <div class="px-16 pb-10">
             <p class="leading-relaxed mt-10">{{ post.excerpt }}</p>
-            <a class="text-indigo-500 inline-flex items-center mt-10" href="{{ post.url }}">Continue Reading
+            <a class="text-blue-500 inline-flex items-center mt-10" href="{{ post.url }}">Continue Reading
               <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
                 stroke-linecap="round" stroke-linejoin="round">
                 <path d="M5 12h14"></path>

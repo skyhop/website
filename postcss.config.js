@@ -12,8 +12,8 @@ module.exports = {
         require('postcss-nesting'),
         require('autoprefixer'),
         require('cssnano')(),
-        ...process.env.NODE_ENV === 'production'
-            ? [purgecss]
-            : []
+        // ...process.env.NODE_ENV === 'production'
+        //     ? [purgecss]
+        //     : []
     ]
 };
