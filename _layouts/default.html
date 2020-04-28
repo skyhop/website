@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {% include head.html %}
+  
+  <title>Skyhop | {{page.title}}</title>
+</head>
+
+<body class="bg-gray-50">
+  <div class="relative overflow-hidden">
+    <div class="relative pt-6 pb-10">
+      {% include header.html %}
+    </div>
+  </div>
+
+  <div class="flex max-w-screen-xl mt-20 px-8 mx-auto">
+    {{content}}
+  </div>
+
+
+  {% include product-update-registration.html %}
+
+  {% include footer.html %}
+</body>
+
+</html>
