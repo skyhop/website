@@ -1,0 +1,89 @@
+<h3 class="px-3 mb-10 mt-3 text-xs leading-4 font-semibold text-gray-500 uppercase tracking-wider">
+  Documentation
+</h3>
+
+<nav>
+  {% assign ordered_pages = site.pages | sort: 'order' %}
+  {% for node in ordered_pages %}
+    {% assign current = node.url | downcase | split: '/' %}
+    {% if current[1] == 'documentation' and current.size > 2 %}
+      {% assign indent = current.size | minus: 3 | times: 3 %}
+
+      {% if page.url == node.url %}
+      <a href="{{node.url}}"
+        class="ml-{{indent}} {% if indent < 2 %} font-medium mt-6 {% endif %} mt-1 group flex items-center px-3 py-2 text-sm leading-5 font-medium text-gray-900 rounded-md bg-gray-100 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150">
+        <span class="truncate">
+          {{ node.title }}
+        </span>
+      </a>
+      {% else %}
+        <a href="{{node.url}}"
+          class="ml-{{indent}} {% if indent < 2 %} font-medium mt-6 {% endif %} mt-1 group flex items-center px-3 py-2 text-sm leading-5 text-gray-600 rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-100 transition ease-in-out duration-150">
+          <span class="truncate">
+            {{node.title}}
+          </span>
+        </a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- <a href="/features"
+    class="group flex items-center px-3 py-2 text-sm leading-5 font-medium text-gray-900 rounded-md bg-gray-100 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150">
+    <span class="truncate">
+      Features
+    </span>
+  </a>
+
+  <div>
+    <a href="/documentation/features/the-digital-logbook.html"
+      class="mt-1 ml-4 group flex items-center px-3 py-2 text-sm leading-5 text-gray-600 rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-100 transition ease-in-out duration-150">
+      <span class="truncate">
+        The digital logbook
+      </span>
+    </a>
+    <a href="#"
+      class="mt-1 ml-4 group flex items-center px-3 py-2 text-sm leading-5 text-gray-600 rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-100 transition ease-in-out duration-150">
+      <span class="truncate">
+        Flight Analysis
+      </span>
+    </a>
+    <a href="#"
+      class="mt-1 ml-4 group flex items-center px-3 py-2 text-sm leading-5 text-gray-600 rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-100 transition ease-in-out duration-150">
+      <span class="truncate">
+        Search and Rescue
+      </span>
+    </a>
+    <a href="#"
+      class="mt-1 ml-4 group flex items-center px-3 py-2 text-sm leading-5 text-gray-600 rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-100 transition ease-in-out duration-150">
+      <span class="truncate">
+        Weak link recovery
+      </span>
+    </a>
+  </div>
+
+  <a href="#"
+    class="mt-10 group flex items-center px-3 py-2 text-sm leading-5 font-medium text-gray-600 rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-100 transition ease-in-out duration-150">
+    <span class="truncate">
+      Developer Documentation
+    </span>
+  </a>
+
+  <a href="/documentation/support.html"
+    class="mt-1 group flex items-center px-3 py-2 text-sm leading-5 font-medium text-gray-600 rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-100 transition ease-in-out duration-150">
+    <span class="truncate">
+      Support
+    </span>
+  </a>
+  <a href="/documentation/roadmap.html"
+    class="mt-1 group flex items-center px-3 py-2 text-sm leading-5 font-medium text-gray-600 rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-100 transition ease-in-out duration-150">
+    <span class="truncate">
+      Roadmap
+    </span>
+  </a>
+  <a href="/documentation/subscriptions.html"
+    class="mt-1 group flex items-center px-3 py-2 text-sm leading-5 font-medium text-gray-600 rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-100 transition ease-in-out duration-150">
+    <span class="truncate">
+      Subscriptions
+    </span>
+  </a> -->
+</nav>

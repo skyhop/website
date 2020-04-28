@@ -1,0 +1,73 @@
+@tailwind base;
+
+@tailwind components;
+
+.markdown {
+  @apply text-base text-gray-800 leading-normal;
+  & > * + *, & li > p + p {
+    @apply mt-6;
+  }
+  & li + li {
+    @apply mt-3;
+  }
+  & strong {
+    @apply text-black font-bold;
+  }
+  & a {
+    @apply text-black font-semibold;
+  }
+  & strong a {
+    @apply font-bold;
+  }
+  & h1 {
+    @apply leading-tight text-3xl font-light text-black mb-4 mt-10;
+  }
+  & h2 {
+    @apply leading-tight text-xl font-medium text-black mb-2 mt-10;
+  }
+  & h3 {
+    @apply leading-tight text-lg font-medium text-black mt-8 -mb-2;
+  }
+  & code {
+    @apply font-mono text-sm inline px-1;
+  }
+  & pre code {
+    @apply block bg-gray-100 shadow p-4 rounded;
+  }
+  & blockquote {
+    @apply border-l-4 border-gray-500 pl-4 italic;
+  }
+  & p {
+    @apply leading-relaxed;
+  }
+  & ul, & ol {
+    @apply pl-5;
+    @screen sm {
+      @apply pl-10;
+    }
+    @apply leading-none;
+  }
+  & ul {
+    list-style-type: disc;
+  }
+  & ol {
+    list-style-type: decimal;
+  }
+  & li {
+    @apply leading-snug;
+  }
+
+  & table {
+    @apply table-auto;
+  }
+
+  & th, & td {
+    @apply px-4;
+    @apply py-2;
+    @apply border;
+    @apply border-gray-200;
+  }
+}
+
+
+@tailwind utilities;

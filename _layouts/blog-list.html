@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {% include head.html %}
+  
+  <title>Skyhop | Blog</title>
+</head>
+
+<body class="bg-gray-50">
+  <div class="relative overflow-hidden">
+    <div class="relative pt-6 pb-10">
+      {% include header.html %}
+    </div>
+  </div>
+
+  <div class="flex flex-col max-w-screen-xl mx-auto">
+    
+    <div class="mt-10 mx-8">
+      <h1 class="text-2xl font-medium text-gray-800">The Skyhop Blog&nbsp;🛫</h1>
+      <p class="max-w-2xl italic text-gray-500 text-sm mt-4">One of the reasons we're innovating at incredible pace at Skyhop is due to the sheer number of small experiments we're running. Exploration is what drives us every day, and we're sharing some of the more exiting results here on our blog.</p>
+      
+    </div>
+    
+    {{ content }}
+    
+  </div>
+
+
+  {% include product-update-registration.html %}
+
+  {% include footer.html %}
+</body>
+
+</html>

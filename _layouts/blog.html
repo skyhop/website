@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {% include head.html %}
+  
+  <title>Skyhop | {{page.title}}</title>
+</head>
+
+<body class="bg-gray-50">
+  <div class="relative overflow-hidden">
+    <div class="relative pt-6 pb-10">
+      {% include header.html %}
+    </div>
+  </div>
+
+  <div class="flex max-w-screen-xl mt-20 px-8 mx-auto">
+    <div class="max-w-4xl bg-white px-20 pb-20 pt-10 rounded-lg shadow-lg mx-auto">
+      <img src="{{ site.authors[page.author].picture }}"
+        class="rounded-full shadow-md w-24 h-24 -mt-24 border-4 mx-auto border-white" />
+      <div class="markdown">
+        <div class="flex flex-col justify-center items-center pb-10">
+          <h1>{{page.title}}</h1>
+          <span class="text-gray-400 text-sm"><a
+              href="{{site.authors[page.author].twitter}}">{{site.authors[page.author].name}}</a> on the
+            {% assign day = page.date | date: "%-d"  %}
+            {% case day %}
+            {% when '1' or '21' or '31' %}{{ day }}st
+            {% when '2' or '22' %}{{ day }}nd
+            {% when '3' or '23' %}{{ day }}rd
+            {% else %}{{ day }}th
+            {% endcase %}
+            of {{page.date | date: "%B, %Y"}}</span>
+        </div>
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
+
+  {% include product-update-registration.html %}
+
+  {% include footer.html %}
+</body>
+
+</html>
