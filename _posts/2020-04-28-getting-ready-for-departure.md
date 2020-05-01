@@ -3,6 +3,8 @@ title: "Getting ready for departure"
 description: "We're getting ready for departure"
 layout: blog
 author: corstian
+redirect_from:
+ - /2020-04-28/getting-ready-for-departure.html
 ---
 
 <p class="text-lg font-thin">It's with great pleasure that I'm working on the finishing touches in order to be able to release Skyhop. It's with this blog post that I'm announcing Skyhop is almost ready to be released. In this post I'll look forward and discuss some of the features which will be available.</p>
