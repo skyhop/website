@@ -9,7 +9,7 @@
 <!-- Facebook metadata -->
 <meta property="og:title" content="{{page.title}}">
 <meta property="og:description" content="{{page.description}}">
-<meta property="og:image" content="{% if header_image %}{{page.image}}{% else %}{{site.url}}/assets/social-media/landing-page.png{% endif %}">
+<meta property="og:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}/assets/social-media/landing-page.png{% endif %}">
 <meta name="twitter:image:alt" content="{{page.image-description}}">
 <meta property="og:url" content="{{site.url}}{{page.url}}">
 <meta name="twitter:card" content="summary_large_image">
