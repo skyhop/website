@@ -6,6 +6,7 @@ order: 102
 
 <p class="font-thin text-lg">To help you analyze your flight performance we have built several tools which may help you with that. Flight analysis is available for every automatically registered flight, or manually registered flights for which you have uploaded a flight track.</p>
 
+<img class="relative mx-auto rounded-lg shadow-lg my-10" src="/assets/images/Screenshot 2020-04-28 at 19.47.31.png" alt="three dimensional (3D) map showing the flight path in a glider with some general flight information such as departure and arrival times as well as airfield information in the left" />
 
 ## Available information
 For automatically collected flight information we usually have the following information available:
@@ -44,6 +45,7 @@ Depending on whether sufficient flight information is available we are calculati
 
 If the information we have is not sufficient enough to calculate these statistics, you can always upload your flight track later on.
 
+<img class="relative mx-auto rounded-lg shadow-lg ml-12 float-right" width="300" src="/assets/images/Screenshot 2020-04-28 at 21.00.34.png" alt="Statistics about ones flight performance in a glider aircraft showing a chart with altitude information and statistics about cruise and thermal performance" />
 
 ## Estimations
 
