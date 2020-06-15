@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: "Meteorological "
+title: "Meteorological estimations"
 order: 106
 ---
 
