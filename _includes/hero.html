@@ -1,40 +1,110 @@
-<div class="relative bg-white overflow-hidden">
-  <div class="max-w-screen-xl mx-auto hidden px-8 lg:block lg:absolute lg:bottom-0 lg:left-0 lg:right-0">
+<style>
+  .css-selector {
+    background: linear-gradient(118deg, #ecf4fd, #f8fbfe);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 29s ease infinite;
+    -moz-animation: AnimationName 29s ease infinite;
+    -o-animation: AnimationName 29s ease infinite;
+    animation: AnimationName 29s ease infinite;
+  }
+
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%
+    }
+
+    50% {
+      background-position: 100% 50%
+    }
+
+    100% {
+      background-position: 0% 50%
+    }
+  }
+
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%
+    }
+
+    50% {
+      background-position: 100% 50%
+    }
+
+    100% {
+      background-position: 0% 50%
+    }
+  }
+
+  @-o-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%
+    }
+
+    50% {
+      background-position: 100% 50%
+    }
+
+    100% {
+      background-position: 0% 50%
+    }
+  }
+
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 50%
+    }
+
+    50% {
+      background-position: 100% 50%
+    }
+
+    100% {
+      background-position: 0% 50%
+    }
+  }
+</style>
+
+<div class="relative bg-white overflow-hidden css-selector">
+  <div class="w-2/3 hidden px-8 lg:block lg:absolute lg:bottom-0 lg:left-0 lg:ml-20 top-96">
+    <div class="h-20"></div>
     <img src="/assets/images/header.svg" class="pb-10" />
   </div>
-  <div class="relative pt-6 pb-64">
-    
-    {% include header.html %}
+  <div class="relative pt-6 pb-128">
 
-    <div class="mt-8 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-20 xl:mt-24">
-      <div class="lg:grid lg:grid-cols-12 lg:gap-8">
-        <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
-          <div
-            class="text-sm font-medium uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
-            Introducing ADS-B support shortly
-          </div>
-          <h2
-            class="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
-            Give your logbook
-            <br class="hidden md:inline" />
-            <span class="text-blue-500">super powers</span>
-          </h2>
-          <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-            Do you also dislike maintaining your logbook?<br />Fear no more! We will do that for
-            you.
-          </p>
-          <div class="mt-12 mb-32 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
-            <span class="inline-flex rounded-md shadow-sm">
-              <a href="https://app.skyhop.org" class="block items-center px-10 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition ease-in-out duration-150">
-                <p>
-                  Try it out now -->
-                </p>
-                <p class="text-xs font-thin text-blue-300">
-                  (Requires <span class="font-medium">FLARM</span>)
-                </p>
-              </a>
-            </span>
-            <!-- <p class="text-base font-medium text-gray-900">
+    {% include header.html %}
+    <div class="flex flex-row max-w-screen-xl mx-auto sm:px-6">
+      <div class="mt-8 px-4 sm:mt-12 md:mt-20 xl:mt-24 flex flex-col flex-0 w-full mr-auto">
+        <div class="">
+          <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
+            <div class="text-sm font-medium uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
+              Introducing ADS-B support shortly
+            </div>
+            <h2
+              class="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
+              Give your logbook
+              <br class="hidden md:inline" />
+              <span class="text-blue-500">super powers</span>
+            </h2>
+            <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+              Do you also dislike maintaining your logbook?<br />We got something that does that for you, automatically!
+            </p>
+            <div class="mt-12 mb-32 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
+
+
+              <!-- <span class="inline-flex rounded-md shadow-sm">
+                <a href="https://app.skyhop.org"
+                  class="block items-center px-10 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition ease-in-out duration-150">
+                  <p>
+                    Try it out now ->
+                  </p>
+                  <p class="text-xs font-thin text-blue-300">
+                    (Requires <span class="font-medium">FLARM</span>)
+                  </p>
+                </a>
+              </span> -->
+              <!-- <p class="text-base font-medium text-gray-900">
               Sign up to get notified when it’s ready.
             </p>
 
@@ -54,6 +124,109 @@
               We care about the protection of your data. Read our
               <a href="/privacy-policy.html" class="font-medium text-gray-900 underline">Privacy Policy</a>.
             </p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Start of login thingy -->
+      <div class="mt-8 sm:mt-12 md:mt-20 xl:mt-24 flex flex-0 justify-center self-center">
+        <div class="bg-gray-50 rounded-lg shadow-lg sm:max-w-md sm:w-full">
+          <div class="bg-white sm:mx-auto sm:rounded-lg sm:overflow-hidden">
+            <div class="px-4 py-8 sm:px-10">
+              <div>
+                <p class="text-sm leading-5 font-medium text-gray-700">
+                  Sign in with
+                </p>
+
+                <div class="mt-2 grid grid-cols-2 gap-3">
+                  <div>
+                    <!-- /External/Challenge?provider=Google&returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dskyhop-web%26redirect_uri%3Dhttps%253A%252F%252Fapp.skyhop.org%252Fsignin-oidc%26response_type%3Did_token%2520token%26scope%3Dopenid%2520profile%2520email%2520all%253Askyhop -->
+                    <span class="w-full inline-flex rounded-md shadow-sm">
+                      <a href="https://login.skyhop.org/External/Challenge?provider=Google&returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dskyhop-web%26redirect_uri%3Dhttps%253A%252F%252Fapp.skyhop.org%252Fsignin-oidc%26response_type%3Did_token%2520token%26scope%3Dopenid%2520profile%2520email%2520all%253Askyhop"
+                        class="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md bg-white text-sm leading-5 font-medium text-gray-500 hover:text-gray-400 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition duration-150 ease-in-out"
+                        aria-label="Sign in with Facebook">
+                        <img src="https://login.skyhop.org/images/Google_G_Logo.svg" class="h-5">
+                      </a>
+                    </span>
+                  </div>
+
+                  <div>
+                    <span class="w-full inline-flex rounded-md shadow-sm">
+                      <a href="https://login.skyhop.org/External/Challenge?provider=Microsoft"
+                        class="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md bg-white text-sm leading-5 font-medium text-gray-500 hover:text-gray-400 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition duration-150 ease-in-out"
+                        aria-label="Sign in with Twitter">
+                        <img src="https://login.skyhop.org/images/ms-symbollockup_mssymbol_19.svg" class="h-5">
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-6 relative">
+                <div class="absolute inset-0 flex items-center">
+                  <div class="w-full border-t border-gray-300"></div>
+                </div>
+                <div class="relative flex justify-center text-sm leading-5">
+                  <span class="px-2 bg-white text-gray-500">
+                    Or
+                  </span>
+                </div>
+              </div>
+
+              <div class="mt-6">
+                <form action="#" method="POST" class="space-y-6">
+                  <div>
+                    <label for="name" class="sr-only">
+                      Full name
+                    </label>
+                    <div class="rounded-md shadow-sm">
+                      <input id="name" placeholder="Full name" required
+                        class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label for="mobile-or-email" class="sr-only">
+                      Mobile number or email
+                    </label>
+                    <div class="rounded-md shadow-sm">
+                      <input id="mobile-or-email" placeholder="Mobile number or email" required
+                        class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label for="password" class="sr-only">
+                      Password
+                    </label>
+                    <div class="rounded-md shadow-sm">
+                      <input id="password" type="password" placeholder="Password" required
+                        class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="block w-full rounded-md shadow-sm">
+                      <button type="submit"
+                        class="w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition duration-150 ease-in-out">
+                        Create your account
+                      </button>
+                    </span>
+
+                    <span class="block w-full text-xs text-gray-600 text-center mt-2"><a href="mx-auto">Already have an account? Log in -></a></span>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="px-4 py-6 bg-gray-50 border-t-2 border-gray-200 sm:px-10">
+              <p class="text-xs leading-5 text-gray-500">
+                By signing up, you agree to our <a href="#" class="font-medium text-gray-900 hover:underline">Terms</a>,
+                <a href="#" class="font-medium text-gray-900 hover:underline">Data Policy</a> and <a href="#"
+                  class="font-medium text-gray-900 hover:underline">Cookies Policy</a>.
+              </p>
+            </div>
           </div>
         </div>
       </div>
