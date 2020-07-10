@@ -1,0 +1,48 @@
+<script src="/assets/code/oidc-client.min.js"></script>
+<script src="/clientsettings.js"></script>
+
+<script type="text/javascript">
+    window.addEventListener('load', function () {
+        var userManager = new Oidc.UserManager({ ...Window.clientsettings, "redirect_uri": "https://skyhop.org/silent.html", });
+
+        var sessionStatus = userManager.querySessionStatus().then((user) => {
+            document.getElementById("redirect_widget").classList.remove("hidden")
+        })
+            .catch((err) => {
+                var oidcClient = new Oidc.OidcClient(Window.clientsettings);
+
+                oidcClient
+                    .createSigninRequest()
+                    .then(result => {
+                        document.getElementById('registration_widget').src = result.url;
+                    });
+
+                document.getElementById("registration_widget").classList.remove("hidden")
+            })
+    });
+</script>
+
+<div
+    class="mt-8 sm:mt-12 md:mt-20 xl:mt-24 rounded-lg shadow-lg sm:max-w-sm sm:w-full relative overflow-hidden flex flex-0 flex-col justify-center bg-white">
+    <iframe id="registration_widget"
+        class=" w-full absolute left-0 top-0 bottom-0 right-0 border-0 justify-center h-128 hidden"></iframe>
+
+    <div id="redirect_widget" class="p-5 hidden">
+
+        <p class="font-light mb-10 w-full text-center text-2xl">Welcome back!</p>
+
+        <span class="inline-flex rounded-md shadow-sm mx-auto w-full">
+            <a href="https://app.skyhop.org"
+                class="w-full inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition ease-in-out duration-150">
+                <div class="mx-auto w-full flex justify-center">
+
+                    Continue to the app
+                    <svg class="h-5 w-5 ml-auto self-center" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </div>
+            </a>
+        </span>
+    </div>
+</div>
