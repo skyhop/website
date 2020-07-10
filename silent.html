@@ -1,0 +1,8 @@
+
+<script src="/assets/code/oidc-client.min.js"></script>
+<script src="/clientsettings.js"></script>
+
+<script type="text/javascript">
+    var userManager = new Oidc.UserManager(Window.clientsettings)
+    userManager.signinSilentCallback()
+</script>
