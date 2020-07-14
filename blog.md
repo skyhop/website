@@ -16,7 +16,6 @@ layout: blog-list
             <img src="{{ site.authors[post.author].picture }}"
               class="rounded-full shadow-md w-12 h-12 -ml-6 border-2 mt-1 border-white" />
             <div class="block ml-10">
-              <a href="{{ post.url }}"><h2 class="text-2xl font-light text-gray-900 title-font">{{ post.title }}</h2></a>
               <span class="text-gray-400 text-sm">
                 <a href="{{site.authors[post.author].twitter}}" class="font-medium">{{site.authors[post.author].name}}</a> on the
                 {% assign day = post.date | date: "%-d"  %}
@@ -28,6 +27,7 @@ layout: blog-list
                 {% endcase %}
                 of {{post.date | date: "%B, %Y"}}
               </span>
+              <a href="{{ post.url }}"><h2 class="text-2xl font-light text-gray-900 title-font">{{ post.title }}</h2></a>
             </div>
           </div>
           <div class="px-16 pb-10">
