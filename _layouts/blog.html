@@ -19,10 +19,9 @@
       <img src="{{ site.authors[page.author].picture }}"
         class="rounded-full shadow-md w-24 h-24 -mt-24 border-4 mx-auto border-white" />
       <div class="markdown">
-        <div class="flex flex-col justify-center items-center pb-10">
-          <h1>{{page.title}}</h1>
-          <span class="text-gray-400 text-sm"><a
-              href="{{site.authors[page.author].twitter}}">{{site.authors[page.author].name}}</a> on the
+        <div class="flex flex-col justify-center items-center pt-10">
+          <span class="text-gray-400 text-sm -mb-5"><a
+            href="{{site.authors[page.author].twitter}}">{{site.authors[page.author].name}}</a> on the
             {% assign day = page.date | date: "%-d"  %}
             {% case day %}
             {% when '1' or '21' or '31' %}{{ day }}st
@@ -30,7 +29,9 @@
             {% when '3' or '23' %}{{ day }}rd
             {% else %}{{ day }}th
             {% endcase %}
-            of {{page.date | date: "%B, %Y"}}</span>
+            of {{page.date | date: "%B, %Y"}}
+          </span>
+          <h1>{{page.title}}</h1>
         </div>
         {{ content }}
       </div>
