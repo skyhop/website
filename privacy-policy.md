@@ -4,7 +4,7 @@ title: "Privacy Policy"
 ---
 
 
-Your privacy is important to us. It is [Whaally](http://localhost:4000/whaally.html)'s policy to respect your privacy regarding any information we may collect from you across our website, https://skyhop.org, and other sites we own and operate.
+Your privacy is important to us. It is [Whaally](https://corstianboerman.com/whaally.html)'s policy to respect your privacy regarding any information we may collect from you across our website, https://skyhop.org, and other sites we own and operate.
 
 We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.
 

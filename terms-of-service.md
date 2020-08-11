@@ -8,7 +8,7 @@ By accessing the website at [https://skyhop.org](https://skyhop.org), you are ag
 
 ## 2. Use Licence
 
-+ *a.* Permission is granted to temporarily download one copy of the materials (information or software) on [Whaally](http://localhost:4000/whaally.html)'s website for personal, non-commercial transitory viewing only. This is the grant of a licence, not a transfer of title, and under this licence you may not:
++ *a.* Permission is granted to temporarily download one copy of the materials (information or software) on [Whaally](https://corstianboerman.com/whaally.html)'s website for personal, non-commercial transitory viewing only. This is the grant of a licence, not a transfer of title, and under this licence you may not:
     + *i.* modify or copy the materials;
     + *ii.* use the materials for any commercial purpose, or for any public display (commercial or non-commercial);
     + *iii.* attempt to decompile or reverse engineer any software contained on Whaally's website;
