@@ -4,7 +4,7 @@ title: "GraphQL API"
 order: 202
 ---
 
-<p class="font-thin text-lg">The graph API is one of the core components of the skyhop platform. Via this API it's possible to invoke all functionality which we have implemented in the web application ourselves.</p>
+The graph API is one of the core components of the skyhop platform. Via this API it's possible to invoke all functionality which we have implemented in the web application ourselves.
 
 If you are not yet familiar with GraphQL, please consider checking out the documentation over at [https://graphql.org](https://graphql.org).
 

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: "Subscriptions"
-order: 1002
+# order: 1002
 ---
 
 <p class="font-thin text-lg">Different use cases require different approaches. We aim to cover the most common use cases on airfields in the nearby future.</p>

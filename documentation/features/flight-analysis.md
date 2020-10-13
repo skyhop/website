@@ -4,7 +4,7 @@ title: "Flight Analysis"
 order: 102
 ---
 
-<p class="font-thin text-lg">To help you analyze your flight performance we have built several tools which may help you with that. Flight analysis is available for every automatically registered flight, or manually registered flights for which you have uploaded a flight track.</p>
+To help you analyze your flight performance we have built several tools which may help you with that. Flight analysis is available for every automatically registered flight, or manually registered flights for which you have uploaded a flight track.
 
 <img class="relative mx-auto rounded-lg shadow-lg my-10" src="/assets/images/Screenshot 2020-04-28 at 19.47.31.png" alt="three dimensional (3D) map showing the flight path in a glider with some general flight information such as departure and arrival times as well as airfield information in the left" />
 

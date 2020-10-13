@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Skyhop offers a digital flight log and flight analysis software at affordable cost for general aviation.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://skyhop.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: _skyhop
+twitter_username: SkyhopHQ
 github_username:  skyhop
 permalink: /blog/:title.html
 
@@ -41,8 +41,8 @@ authors:
   corstian:
     name: Corstian Boerman
     email: support@skyhop.org
-    twitter: https://twitter.com/corstianboerman
-    picture: /assets/corstian.jpg
+    twitter: https://corstianboerman.com
+    picture: https://avatars3.githubusercontent.com/u/5021647?s=400&u=d46b36e95dea32c604923490c7aecb12f8ff7ada&v=4
 
 # Exclude from processing.
 # The following items will not be processed, by default.

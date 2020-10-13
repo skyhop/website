@@ -4,7 +4,7 @@ title: "Roadmap"
 order: 1003
 ---
 
-<p class="font-thin text-lg">SkyHop is a platform which is continuously being worked on. This page lays out the future plans for the development of SkyHop. Note that this roadmap is not carved in stone, and it is subject to change. If you feel like a certain feature should have a higher priority or we could help you by implementing certain functionality, please send us a mail at support@skyhop.org and describe how you would be helped if we implement a certain feature.</p>
+SkyHop is a platform which is continuously being worked on. This page lays out the future plans for the development of SkyHop. Note that this roadmap is not carved in stone, and it is subject to change. If you feel like a certain feature should have a higher priority or we could help you by implementing certain functionality, please send us a mail at support@skyhop.org and describe how you would be helped if we implement a certain feature.
 
 Please consider buying a subscription if you like SkyHop. This project relies on subscription revenue for hosting, maintenance and it's ongoing development efforts, and subscription revenue will help us keep this platform running in the future.
 

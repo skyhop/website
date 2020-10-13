@@ -18,9 +18,9 @@
     <div class="max-w-4xl bg-white px-20 pb-20 pt-10 rounded-lg shadow-lg mx-auto">
       <img src="{{ site.authors[page.author].picture }}"
         class="rounded-full shadow-md w-24 h-24 -mt-24 border-4 mx-auto border-white" />
-      <div class="markdown">
-        <div class="flex flex-col justify-center items-center pt-10">
-          <span class="text-gray-400 text-sm -mb-5"><a
+      <div class="prose">
+        <div class="flex flex-col justify-center items-center pt-6">
+          <span class="text-gray-400 text-sm mb-12"><a
             href="{{site.authors[page.author].twitter}}">{{site.authors[page.author].name}}</a> on the
             {% assign day = page.date | date: "%-d"  %}
             {% case day %}

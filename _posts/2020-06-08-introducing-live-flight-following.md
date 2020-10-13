@@ -4,9 +4,9 @@ author: corstian
 layout: blog
 ---
 
-<p class="font-thin text-lg">I have been on a streak lately as I'm cranking out new features at a speed I've never been able to before. The latest addition to Skyhop involves live flight following, but it's a bit different than you're used to.</p>
+I have been on a streak lately as I'm cranking out new features at a speed I've never been able to before. The latest addition to Skyhop involves live flight following, but it's a bit different than you're used to.
 
-Most of you will be familiar with flight following with tools like <a href="https://live.glidernet.org" rel="nofollow">live.glidernet.org</a>. The new addition on Skyhop is nothing like that. Let me walk you through it, but first more about the reasons it turned out like this;
+Most of you will be familiar with flight following with tools like live.glidernet.org. The new addition on Skyhop is nothing like that. Let me walk you through it, but first more about the reasons it turned out like this;
 
 
 ## Inspiration

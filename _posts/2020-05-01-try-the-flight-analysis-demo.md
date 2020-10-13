@@ -5,7 +5,7 @@ author: corstian
 layout: blog
 ---
 
-<p class="text-lg font-thin">Now that I'm finishing the first version of Skyhop, I can slowly release some previews to show where I have been going with Skyhop. Let me introduce you to the flight analysis functionality.</p>
+Now that I'm finishing the first version of Skyhop, I can slowly release some previews to show where I have been going with Skyhop. Let me introduce you to the flight analysis functionality.
 
 
 As described in the previous blog post, flight analysis features are one of the two core product which have been implemented in Skyhop, besides the digital logbook. For me the primary goal of these flight analysis features are to gain a detailed insight into your own flight performance and therefore give you an opportunity to improve for the next flight.
@@ -22,4 +22,4 @@ Thankfully I have had the opportunity to get my check ride done just in time bef
 
 ## Do you have feedback?
 
-This is the first time I'm distributing part of Skyhop at this scale, and therefore I'm eager to hear what you think about it! Please let me know about any feedback, either via email (mail me at [corstian@skyhop.org](mailto:corstian@skyhop.org)), or via twitter ([@CorstianBoerman](https://twitter.com/corstianboerman) or [@_skyhop](https://twitter.com/_skyhop)).
+This is the first time I'm distributing part of Skyhop at this scale, and therefore I'm eager to hear what you think about it! Please let me know about any feedback, either via email (mail me at [corstian@skyhop.org](mailto:corstian@skyhop.org)), or via twitter ([@CorstianBoerman](https://twitter.com/corstianboerman) or [@SkyhopHQ](https://twitter.com/SkyhopHQ)).

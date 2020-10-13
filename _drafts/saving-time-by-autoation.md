@@ -3,7 +3,7 @@ title: "Saving time by automation"
 author: corstian
 ---
 
-<p class="font-thin text-lg">It's in the nature of humans to take common things for granted. As soon as we've been surprised by something new, we adapt our future expectations to fit in with this surprise. It's why we, despite automation becoming widespread, are still expected to work 40 hours in a week, as well as why people are numbed down over time by the (in)actions of fascist leaders.</p>
+It's in the nature of humans to take common things for granted. As soon as we've been surprised by something new, we adapt our future expectations to fit in with this surprise. It's why we, despite automation becoming widespread, are still expected to work 40 hours in a week, as well as why people are numbed down over time by the (in)actions of fascist leaders.
 
 My aim is to make this post a little bit less controversial than previous two statements, as I want to write about the time saving capabilities Skyhop currently has. I'll cover certain use-cases wherein I believe Skyhop shines, and outperforms alternatives.
 

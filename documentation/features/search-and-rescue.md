@@ -12,7 +12,7 @@ If you are in need of assistance to aid in an emergency situation, call now!    
   >+31613406012</a>
 </div>
 
-<p class="font-thin text-lg">In case a glider aircraft goes missing we might be able to help search and rescue operations by providing accurate data about the possible whereabouts of a missing aircraft.</p>
+In case a glider aircraft goes missing we might be able to help search and rescue operations by providing accurate data about the possible whereabouts of a missing aircraft.
 
 At Skyhop we specifically train with this scenario in mind to be able to help as quickly and efficient as possible and have a script available to help us act accordingly in case our assistance is requested. We might be able to help using our pre-developed tooling for location estimation, as well as custom data analysis services.
 

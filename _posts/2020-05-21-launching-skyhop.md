@@ -7,7 +7,7 @@ image: "/assets/images/2020-05-21 10.49.57.jpg"
 image-description: "That's me, Corstian, toasting to the first MVP of Skyhop"
 ---
 
-<p class="font-thin text-lg">Back in 2016 when I started working on some aviation related software tools I could not imagine I'd be able to ship a product like this one day, but here we are. I'm happy to announce the public availability of what I would call the MVP (Minimum Viable Product) version of Skyhop! More details in this blog post;</p>
+Back in 2016 when I started working on some aviation related software tools I could not imagine I'd be able to ship a product like this one day, but here we are. I'm happy to announce the public availability of what I would call the MVP (Minimum Viable Product) version of Skyhop! More details in this blog post;
 
 
 But first, let me share a bit of my story; my name is Corstian, and I started flying gliders back in 2015. The funny thing is that when I started flying, my little brother was like "hey cool, I'm going to join you", and we've been flying together since then. Often, when we're on our way back home after a day on the airfield we'd share our flights and talk crap about each others performance. This has been a major contribution to my inspiration for building Skyhop.

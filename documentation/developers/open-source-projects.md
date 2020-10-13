@@ -4,11 +4,11 @@ title: "Open Source Projects"
 order: 201
 ---
 
-<p class="font-thin text-lg">We recognize that all great software built nowadays is built upon the shoulders of giants. Because we rely on tons of open-software projects we believe it's no more than reasonable to empower other people with great ideas by releasing some of the projects which we have specifically built for SkyHop.</p>
+We recognize that all great software built nowadays is built upon the shoulders of giants. Because we rely on tons of open-software projects we believe it's no more than reasonable to empower other people with great ideas by releasing some of the projects which we have specifically built for Skyhop.
 
-While some of these projects themselves are heavily inspired on other open-source projects, some of these projects are novel implementations specifically developed for use with SkyHop.
+While some of these projects themselves are heavily inspired on other open-source projects, some of these projects are novel implementations specifically developed for use with Skyhop.
 
-This page lists the projects we have available.
+This page lists some of the open source work we do. Check out [@skyhop on GitHub](https://github.com/skyhop) for a more expansive list.
 
 ## Flight Analysis
 One of the most important parts of our infrastructure is this project. It is responsible for processing flight data points in a way which results in some useful metadata such as departure and arrival information.
@@ -28,4 +28,4 @@ Check it out here: [https://github.com/skyhop/XCServer](https://github.com/skyho
 ## APRS Server
 As we heavily rely on external data to be able to analyze flight performance, it's important to have a reliable APRS parser, as well as a server client. We use this project ourselves to retrieve our data from Open Glider Net, or OGN in short.
 
-Check it out here: [https://github.com/skyhop/Aprs](https://github.com/skyhop/Aprs), or pull the Docker container from https://hub.docker.com/r/corstian/xcserver!
+Check it out here: [https://github.com/skyhop/Aprs](https://github.com/skyhop/Aprs), or pull the Docker container from [https://hub.docker.com/r/skyhop/xcserver](https://hub.docker.com/r/corstian/xcserver)!

@@ -4,9 +4,9 @@ author: corstian
 layout: blog
 ---
 
-<p class="font-thin text-lg">Over the last weeks I have been busy improving upon existing functionality, finishing a few new features and laying the foundations for future awesomeness!
+Over the last weeks I have been busy improving upon existing functionality, finishing a few new features and laying the foundations for future awesomeness!
 
-The highlight for sure is the new feature with which you can now keep track of your exercises. The current version is a proof of concept to see how this works, and is configured to show the exercises as defined in the Flight Crew Licensing requirements for a LAPL(S). Being able to keep track of executed exercises is the first step towards a digital administrative system compliant with the requirements for a EASA DTO (Declared Training Organization).</p>
+The highlight for sure is the new feature with which you can now keep track of your exercises. The current version is a proof of concept to see how this works, and is configured to show the exercises as defined in the Flight Crew Licensing requirements for a LAPL(S). Being able to keep track of executed exercises is the first step towards a digital administrative system compliant with the requirements for a EASA DTO (Declared Training Organization).
 
 
 ## Changes

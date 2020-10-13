@@ -4,7 +4,7 @@ title: "Support"
 order: 1001
 ---
 
-<p class="font-thin text-lg">Basic support is available free of charge. If you have any questions feel free to contact support via email (<a href="mailto:support@skyhop.org">support@skyhop.org</a>) or on Twitter (<a href="https://twitter.com/_skyhop">@_skyhop</a>).</p>
+Basic support is available free of charge. If you have any questions feel free to contact support via email (<a href="mailto:support@skyhop.org">support@skyhop.org</a>) or on Twitter (<a href="https://twitter.com/SkyhopHQ">@SkyhopHQ</a>).
 
 ## Service Level Agreements (SLA's)
 If you require certain standards to our quality of service, or wish a certain incident response time, then we have SLA's available specially for you! Please contact Skyhop support for more information and possibilities.
