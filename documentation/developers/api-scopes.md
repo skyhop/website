@@ -4,7 +4,7 @@ title: "API Scopes"
 order: 203
 ---
 
-<p class="font-thin text-lg">The API is being secured through an OAuth server. In order to access data it's required to authorize yourself or your application through this server. This server will hand out (JWT) access tokens indicating you are in fact authorized to access a certain resource.</p>
+The API is being secured through an OAuth server. In order to access data it's required to authorize yourself or your application through this server. This server will hand out (JWT) access tokens indicating you are in fact authorized to access a certain resource.
 
 There are several steps with which we determine whether the 3rd party accessing the API is authorized to do so. One of the first steps is in checking whether the scope is correctly. The scope determines to which section(s) of the API the token grants access to.
 

@@ -4,7 +4,7 @@ author: corstian
 layout: blog
 ---
 
-<p class="font-thin text-lg">Today I'm introducing a new addition to Skyhop with which you can easily retrieve your flight information. This includes the departure and arrival airfields, as well as the flight times for tracked aircraft.</p>
+Today I'm introducing a new addition to Skyhop with which you can easily retrieve your flight information. This includes the departure and arrival airfields, as well as the flight times for tracked aircraft.
 
 
 Even though this feature was already available for people with an account, I figured it would be beneficial for everyone involved to make this flight information publicly available, and therefore more accessible. There are several reasons for me to do so, which I will explain later in this post. You can find the flight archive in the menu bar above under 'Flights', or you can follow [this link](/archive).

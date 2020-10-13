@@ -4,7 +4,7 @@ title: "Graph API: Design Guidelines and Principles"
 order: 204
 ---
 
-<p class="font-thin text-lg">Almost everything we build at SkyHop makes use of the Graph API to get things done. This ranges from the creation of new users to the retrieval of flight information. Because this component is so important to our infrastructure we've invested a significant amount of time to make this API as easily accessible as possible. This document describes the guidelines we have used to design our GraphQL API. Even though it is primarily intended for the developers working on the SkyHop platform, it might also benefit you as it enables you to understand the conventions by which this API has been built.</p>
+Almost everything we build at SkyHop makes use of the Graph API to get things done. This ranges from the creation of new users to the retrieval of flight information. Because this component is so important to our infrastructure we've invested a significant amount of time to make this API as easily accessible as possible. This document describes the guidelines we have used to design our GraphQL API. Even though it is primarily intended for the developers working on the SkyHop platform, it might also benefit you as it enables you to understand the conventions by which this API has been built.
 
 We invite everyone to challenge our design decisions so that we can build a better product together.
 

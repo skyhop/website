@@ -5,7 +5,7 @@ author: corstian
 category: news
 ---
 
-<p class="font-thin text-lg">Last year I comitted to launching Skyhop in March 2020. I have already postponed launch due to a burnout before, and now there's a pandemic spoiling the fun. Apparently there is never a perfect time to launch. To make the best out of this situations I have been making a few changes and made premium features available for free. Read further for more details;</p>
+Last year I comitted to launching Skyhop in March 2020. I have already postponed launch due to a burnout before, and now there's a pandemic spoiling the fun. Apparently there is never a perfect time to launch. To make the best out of this situations I have been making a few changes and made premium features available for free. Read further for more details;
 
 
 During this time where an pandemic is ravaging through the world, the inability to fly is only a minor inconvenience in the grand scheme of things. With the social distancing measures in place in the Netherlands flight training is out of the picture for a while.

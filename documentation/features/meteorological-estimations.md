@@ -4,7 +4,7 @@ title: "Meteorological estimations"
 order: 106
 ---
 
-<p class="font-thin text-lg">To improve accuracy of existing weather forecast models, Skyhop is able to derive certain meteorological properties from airborne glider aircraft. Because glider aircraft rely on local weather conditions in order to fly long distances, they prove to be a valuable source of weather information on locations where regular aircraft are not to be found.</p>
+To improve accuracy of existing weather forecast models, Skyhop is able to derive certain meteorological properties from airborne glider aircraft. Because glider aircraft rely on local weather conditions in order to fly long distances, they prove to be a valuable source of weather information on locations where regular aircraft are not to be found.
 
 ## Use-cases
 

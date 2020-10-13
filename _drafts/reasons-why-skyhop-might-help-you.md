@@ -4,7 +4,7 @@ layout: blog
 author: corstian
 ---
 
-<p class="font-thin text-lg">When development on Skyhop began, I had a few problems in mind I was trying to solve. While not everyone within the aviation community actively struggles with these, I believe there are many who do. Let me explain those problems.</p>
+When development on Skyhop began, I had a few problems in mind I was trying to solve. While not everyone within the aviation community actively struggles with these, I believe there are many who do. Let me explain those problems.
 
 
 ## 1. Information is manually entered

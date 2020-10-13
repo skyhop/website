@@ -7,7 +7,7 @@ redirect_from:
  - /2020-04-28/getting-ready-for-departure.html
 ---
 
-<p class="text-lg font-thin">It's with great pleasure that I'm working on the finishing touches in order to be able to release Skyhop. It's with this blog post that I'm announcing Skyhop is almost ready to be released. In this post I'll look forward and discuss some of the features which will be available.</p>
+It's with great pleasure that I'm working on the finishing touches in order to be able to release Skyhop. It's with this blog post that I'm announcing Skyhop is almost ready to be released. In this post I'll look forward and discuss some of the features which will be available.
 
 
 Skyhop has been a pretty big project for me personally. The aims had been high, but the goal to build an automatic flight log has been achieved! Let me walk you through a few of the core features of Skyhop;
@@ -53,6 +53,6 @@ The relationships between these different parameters make it possible to get an 
 
 ## What's next?
 
-At the time of writing this I'm working on applying the finishing touches to get ready for launch. These efforts include tasks such as running the last few tests on Skyhop and activating social media channels. Just so you know, you can follow [Skyhop on Twitter](https://twitter.com/_skyhop), as well as [on Facebook](https://www.facebook.com/Skyhop-103274767958275). For the technically minded people there is [GitHub](https://github.com/skyhop) where we host our open source projects. Give those a star as well!
+At the time of writing this I'm working on applying the finishing touches to get ready for launch. These efforts include tasks such as running the last few tests on Skyhop and activating social media channels. Just so you know, you can follow [Skyhop on Twitter](https://twitter.com/SkyhopHQ), as well as [on Facebook](https://www.facebook.com/Skyhop-103274767958275). For the technically minded people there is [GitHub](https://github.com/skyhop) where we host our open source projects. Give those a star as well!
 
 If you want to stay up to date on what's happening with Skyhop, don't forget to subscribe to our newsletter, down below.

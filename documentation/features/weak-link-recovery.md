@@ -4,7 +4,7 @@ title: "Weak Link Recovery"
 order: 103
 ---
 
-<p class="font-thin text-lg">Whenever a weak link breaks, be it during a winch launch or during an aerotow, it can be quite a hassle to recover it, if possible at all. In order to facilitate and speed up weak-link recovery we have built a tool to help out in this scenario. This tool uses the available flight and weather information to make a well educated guess about the possible location of a weak link. Although this is only an estimation, it can help reducing the search area and applying an effective search strategy.</p>
+Whenever a weak link breaks, be it during a winch launch or during an aerotow, it can be quite a hassle to recover it, if possible at all. In order to facilitate and speed up weak-link recovery we have built a tool to help out in this scenario. This tool uses the available flight and weather information to make a well educated guess about the possible location of a weak link. Although this is only an estimation, it can help reducing the search area and applying an effective search strategy.
 
 <img alt="Weak link recovery map on a glider field within Skyhop" src="/assets/images/weak-link-recovery-screenshot.png" class="border-8 border-gray-200 rounded-lg" />
 

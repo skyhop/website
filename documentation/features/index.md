@@ -4,7 +4,7 @@ title: "Features"
 order: 100
 ---
 
-<p class="font-thin text-lg">Skyhop is built with the goal to simplify the maintenance of your logbook. We have built features which can help you with this, whether you want to maintain a flight log for your airfield, aircraft, or for yourself. Around this idea of a digital logbook we have built tooling which uses the information from the logbook to help with everyday tasks such providing detailed flight logs for debriefing purposes or bragging rights.</p>
+Skyhop is built with the goal to simplify the maintenance of your logbook. We have built features which can help you with this, whether you want to maintain a flight log for your airfield, aircraft, or for yourself. Around this idea of a digital logbook we have built tooling which uses the information from the logbook to help with everyday tasks such providing detailed flight logs for debriefing purposes or bragging rights.
 
 Skyhop has the following features:
 - [A digital logbook](/documentation/features/the-digital-logbook.html)

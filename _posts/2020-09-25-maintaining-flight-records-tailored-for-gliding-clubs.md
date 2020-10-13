@@ -4,13 +4,12 @@ layout: blog
 author: corstian
 ---
 
-<p class="font-thin text-lg">This post describes some ideas about the administrative workflows used to maintain flight records. This post is specifically written with gliding clubs in mind. Though these ideas are potentially (partly) applicable to the broader aviation community, this post has been based on the following conditions;
+This post describes some ideas about the administrative workflows used to maintain flight records. This post is specifically written with gliding clubs in mind. Though these ideas are potentially (partly) applicable to the broader aviation community, this post has been based on the following conditions;
 
-  <ul>
-    <li>Aircraft are shared among a dynamic group of pilots. Time slots are not planned beforehand, but rather discussed on the fly.</li>
-    <li>Flight administration happens manually on the airfield. There is usually someone dedicated to keeping track of the flight administration.</li>
-  </ul>
-</p>
+<ul>
+  <li>Aircraft are shared among a dynamic group of pilots. Time slots are not planned beforehand, but rather discussed on the fly.</li>
+  <li>Flight administration happens manually on the airfield. There is usually someone dedicated to keeping track of the flight administration.</li>
+</ul>
 
 
 ## Background

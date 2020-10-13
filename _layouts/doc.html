@@ -3,12 +3,12 @@
 
 <head>
   {% include head.html %}
-  
+
   <title>Skyhop | {{page.title}}</title>
 </head>
 
-<body>
-  <div class="relative bg-white overflow-hidden">
+<body class="bg-gray-50">
+  <div class="relative overflow-hidden">
     <div class="relative pt-6 pb-10">
       {% include header.html %}
     </div>
@@ -18,11 +18,13 @@
     <div class="w-1/4 pr-12 mt-10">
       {% include docs-sidebar.html %}
     </div>
-    <div class="w-3/5 mx-auto">
-      <div class="markdown">
-        <h1>{{page.title}}</h1>
 
-        {{ content }}
+    <div class="w-3/4 mx-auto m-0 mt-10 pl-6">
+      <div class="rounded-lg shadow-xl bg-white py-16 px-12 flex flex-col">
+        <div class="prose self-center">
+          <h1>{{page.title}}</h1>
+          {{ content }}
+        </div>
       </div>
     </div>
   </div>
