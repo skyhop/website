@@ -5,28 +5,47 @@
 <div class="bg-white flex h-full pb-48">
   <div class="max-w-screen-xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-32 lg:px-8 h-full flex flex-col justify-center">
     <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:leading-relaxed">
-      <span class="text-gray-800">Hi there</span>
+      <span class="text-gray-800">Hey <span id="pilot-emoji"></span></span>
       <br />
-      How can I help you today?
+      <!-- Difficulty keeping up with logs? -->
+      <!-- Forgot to write down your flight logs? -->
+      Is your logbook up to date?
     </h2>
     <div class="mt-12 flex justify-center">
       <div class="inline-flex rounded-md shadow">
         <a href="https://app.skyhop.org" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-          Open my logbook
+          No! Go to my logbook ->
         </a>
       </div>
       <div class="ml-6 inline-flex">
         <a href="/archive.html" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-blue-700 bg-blue-100 hover:text-blue-600 hover:bg-blue-50 focus:outline-none focus:shadow-outline focus:border-blue-300 transition duration-150 ease-in-out">
-          Show public flight logs
+          I just need to fetch some flight times
         </a>
       </div>
     </div>
     <div class="mt-6 flex justify-center">
       <div class="ml-6 inline-flex">
         <a href="/about.html" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-600 hover:text-gray-400 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-          I'm new, what's this about?
+          Tell me more about Skyhop
         </a>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  document.getElementById("pilot-emoji").textContent = [
+    "👩‍✈️",
+    "👨‍✈️",
+    "👩🏻‍✈️",
+    "👨🏻‍✈️",
+    "👩🏼‍✈️",
+    "👨🏼‍✈️",
+    "👩🏽‍✈️",
+    "👨🏽‍✈️",
+    "👩🏾‍✈️",
+    "👨🏾‍✈️",
+    "👩🏿‍✈️",
+    "👨🏿‍✈️"
+  ][Math.round(Math.random() * 11)];
+</script>
