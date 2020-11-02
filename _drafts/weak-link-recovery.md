@@ -6,6 +6,10 @@ author: corstian
 
 In todays second update I have made weak link recovery more widely accessible! Though it has been a longtime feature, it was only barely accessible, and tucked away in some obscure corner. Today I'm correcting that! I'm sincerely hoping this tool will save everybody boatloads of time recovering their links!
 
+It surely has saved myself a lot of time! Anecdotally the first time I had manually calculated the location of a failed weak link, I had managed to estimate it's location within 10 meters accuracy! By the time I found the link had been lost for over a week, thus there was no way I could have seen where it fell ;).
+
+[Try the tool with a flight of mine.](https://app.skyhop.org/flight/sS%2Fzd3h640CJQJXcfV7FOw%3D%3D/link-recovery) *(You will have to be logged in. Feel free to create an account.)*
+
 
 ## What does it offer?
 
